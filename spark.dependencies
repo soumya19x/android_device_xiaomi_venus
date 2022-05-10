@@ -1,0 +1,28 @@
+[
+  {
+    "repository": "android_device_xiaomi_venus",
+    "target_path": "device/xiaomi/venus",
+    "branch": "12.1"
+  },
+  {
+    "repository": "android_device_xiaomi_sm8350-common",
+    "target_path": "device/xiaomi/sm8350-common",
+    "branch": "12.1"
+  },
+  {
+    "repository":  "kernel_xiaomi_venus",
+    "target_path": "kernel/xiaomi/venus",
+    "branch": "12.1"
+  },
+  {
+    "repository": "android_vendor_xiaomi_sm8350-common",
+    "target_path": "vendor/xiaomi/sm8350-common",
+    "branch": "12.1"
+  },
+  {
+    "repository": "android_vendor_xiaomi_venus",
+    "target_path": "vendor/xiaomi/venus",
+    "branch": "12.1",
+    "remote": "pixel-devices-blobs"
+  }
+]
