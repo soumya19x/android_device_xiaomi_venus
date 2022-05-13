@@ -24,3 +24,9 @@
          Off by default, since the framebuffer readback used to implement the
          fading edges is prohibitively expensive on most GPUs. -->
     <bool name="config_ui_enableFadingMarquee">true</bool>
+
+    <!-- WA for lags caused by blur/ qs and ls album art filter etc.. -->
+    <bool name="config_avoidGfxAccel">false</bool>
+    <bool name="config_sf_slowBlur">false</bool> 
+
+    
