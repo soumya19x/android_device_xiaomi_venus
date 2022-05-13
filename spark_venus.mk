@@ -16,6 +16,7 @@ $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 TARGET_SUPPORTS_QUICK_TAP := true
 WITH_GAPPS :=true
 TARGET_BOOT_ANIMATION_RES := 1080
+EXTRA_UDFPS_ANIMATIONS := true
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := venus
