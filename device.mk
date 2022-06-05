@@ -26,13 +26,18 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display_id_4630946736638489730.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/displayconfig/display_id_4630946736638489730.xml
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-aosp
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
     FrameworksResVenus \
     SettingsProviderOverlayVenus \
     SettingsResVenus \
     SystemUIResVenus
+
+# vintf
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false    
 
 # PowerShare
 PRODUCT_PACKAGES += \

@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2021 The Aosp Project
+# Copyright (C) 2021 The Lineage Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_venus.mk
+    $(LOCAL_DIR)/lineage_venus.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_venus-user \
-    spark_venus-userdebug \
-    spark_venus-eng
+    lineage_venus-user \
+    lineage_venus-userdebug \
+    lineage_venus-eng
