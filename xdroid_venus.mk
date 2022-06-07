@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021 The xdroidOSS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -14,24 +14,23 @@ $(call inherit-product, device/xiaomi/venus/device.mk)
 # Lawnchair
 $(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common xdroidOSS stuff.
+$(call inherit-product, vendor/xdroid/config/common.mk)
 
 # Rom flags
-RICE_MAINTAINER := Soumyo
-RICE_DEVICE := Mi 11
 TARGET_HAS_UDFPS := true
-TARGET_ENABLE_BLUR := false
 TARGET_SUPPORTS_QUICK_TAP := true
-WITH_GAPPS :=true
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+XDROID_BOOT := 1440
+XDROID_MAINTAINER := Soumyo
 EXTRA_UDFPS_ANIMATIONS := true
-TARGET_BUILD_GRAPHENEOS_CAMERA := true
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := venus
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := M2011K2G
-PRODUCT_NAME := lineage_venus
+PRODUCT_NAME := xdroid_venus
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi

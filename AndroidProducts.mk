@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2021 The Lineage Project
+# Copyright (C) 2021 The xdroidOSS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_venus.mk
+    $(LOCAL_DIR)/xdroid_venus.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_venus-user \
-    lineage_venus-userdebug \
-    lineage_venus-eng
+    xdroid_venus-user \
+    xdroid_venus-userdebug \
+    xdroid_venus-eng
