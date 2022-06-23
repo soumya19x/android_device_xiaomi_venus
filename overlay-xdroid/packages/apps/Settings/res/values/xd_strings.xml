@@ -17,7 +17,7 @@
     <string name="xd_device_name_summary">Xiaomi Mi 11</string>
     <string name="xd_chipset_type_summary">Qualcomm Snapdragon™ 888</string>
     <string name="xd_gpu_summary">Adreno™ 660</string>
-    <string name="xd_camera_mp_summary">108MP+13MP+5MP Triple Camera</string>
-    <string name="xd_screen_type_summary">QHD+ 10bit 120hz 6.81 Inches Amoled</string>
+    <string name="xd_camera_mp_summary">108+13+5MP Triple Camera</string>
+    <string name="xd_screen_type_summary">120hz QHD+ 10bit 6.81 Inches</string>
 
 </resources> 
