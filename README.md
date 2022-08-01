@@ -1,7 +1,3 @@
-Copyright (C) 2021 The LineageOS Project
-
-Copyright (C) 2022 The PixelExperience Project
-
 Device configuration for Xiaomi Mi 11
 =========================================
 
