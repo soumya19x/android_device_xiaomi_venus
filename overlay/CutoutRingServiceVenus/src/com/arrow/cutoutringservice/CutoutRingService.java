@@ -51,7 +51,7 @@ public class CutoutRingService extends BroadcastReceiver {
     private static final String TAG = "CutoutRingServiceVenus";
     private static final String FRONT_CAMERA_ID = "1";
 
-    private static final int RING_SIZE = 100;
+    private static final int RING_SIZE = 95;
     private static final int X_OFFSET = 116;
     private static final int X_OFFSET_HORIZONTAL = 49;
     private static final int Y_OFFSET = 49;
