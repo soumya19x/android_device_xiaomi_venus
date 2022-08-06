@@ -17,6 +17,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit AnxVerse Setup.
 $(call inherit-product, vendor/xiaomi/venus-miuicamera/products/miuicamera.mk)
 
+# Lawnchair
+$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
+
 # Rom flags
 RICE_MAINTAINER := Soumyo/Tofu
 RICE_DEVICE := Mi 11
