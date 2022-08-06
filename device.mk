@@ -30,6 +30,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
+    CutoutRingServiceVenus \
     FrameworksResVenus \
     SettingsProviderOverlayVenus \
     SettingsResVenus \
