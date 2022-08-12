@@ -4,7 +4,7 @@
     android:shape="oval">
 
    <solid
-       android:color="#ffffff"/>
+       android:color="@color/camera_accent_color"/>
 
    <size
        android:width="120dp"
