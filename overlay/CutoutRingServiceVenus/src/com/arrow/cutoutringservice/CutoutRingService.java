@@ -52,10 +52,10 @@ public class CutoutRingService extends BroadcastReceiver {
     private static final String FRONT_CAMERA_ID = "1";
 
     private static final int RING_SIZE = 92;
-    private static final int X_OFFSET = 124;
-    private static final int X_OFFSET_HORIZONTAL = 57;
-    private static final int Y_OFFSET = 57;
-    private static final int Y_OFFSET_HORIZONTAL = 124;
+    private static final int X_OFFSET = 119;
+    private static final int X_OFFSET_HORIZONTAL = 52;
+    private static final int Y_OFFSET = 52;
+    private static final int Y_OFFSET_HORIZONTAL = 119;
     private static final int ANIMATION_MS = 1000;
 
     private static final int HIDDEN = 0;
