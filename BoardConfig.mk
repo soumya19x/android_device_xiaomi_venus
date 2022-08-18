@@ -37,4 +37,3 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 114001162240
 
 # Include proprietary files
 -include vendor/xiaomi/venus/BoardConfigVendor.mk
--include vendor/xiaomi/venus-firmware/BoardConfigVendor.mk

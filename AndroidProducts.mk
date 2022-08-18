@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The xdroidOSS Project
+# Copyright (C) 2021 The Aosp Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
