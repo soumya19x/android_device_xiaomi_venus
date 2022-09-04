@@ -68,7 +68,7 @@ git clone https://github.com/LineageOS/android_hardware_xiaomi.git hardware/xiao
 
 # Miui Camera
 ```bash
-https://github.com/ralph950412/vendor_venus-miuicamera.git vendor/xiaomi/venus-miuicamera
+https://github.com/ralph950412/vendor_xiaomi_venus-miuicamera.git vendor/xiaomi/venus-miuicamera
 ```
 
 # Lawnchair
